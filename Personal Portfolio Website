@@ -1,0 +1,145 @@
+//creating a personal portfolio website involves writing HTML for structure and content, and CSS for styling
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="profile-photo.jpg" alt="Profile Photo" class="profile-photo">
+            <h1 class="headline">John Doe</h1>
+            <p class="skills-summary">Web Developer | UI/UX Designer | Content Creator</p>
+        </div>
+    </header>
+    
+    <section class="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with a keen interest in creating user-friendly and visually appealing websites. With over 5 years of experience in the field, I have worked on various projects ranging from simple landing pages to complex web applications.</p>
+            <h3>Skills</h3>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>UI/UX Design</li>
+                <li>Responsive Web Design</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project Name 1</h3>
+                <p>Description of Project 1</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project Name 2</h3>
+                <p>Description of Project 2</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+//Basic CSS file styles.css to style the layout
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.headline {
+    margin: 0;
+}
+
+.skills-summary {
+    font-style: italic;
+}
+
+.about-me {
+    padding: 20px 0;
+}
+
+.about-me h2 {
+    color: #333;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.projects {
+    padding: 20px 0;
+}
+
+.projects h2 {
+    color: #333;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: #333;
+}
+
+.project p {
+    color: #666;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
